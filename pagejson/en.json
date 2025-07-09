@@ -18,28 +18,13 @@
           "title": "Categories",
           "url": "/categories",
           "target": "_self"
-        },
-        {
-          "title": "Submit",
-          "url": "https://github.com/chatmcp/mcp-directory/issues/1",
-          "target": "_blank"
-        },
-        {
-          "title": "Telegram",
-          "url": "https://t.me/+N0gv4O9SXio2YWU1",
-          "target": "_blank"
-        },
-        {
-          "title": "Discord",
-          "url": "https://discord.gg/RsYPRrnyqg",
-          "target": "_blank"
         }
       ]
     }
   },
   "hero": {
     "title": "Find Awesome MCP Servers",
-    "description": " MCP Servers Stored"
+    "description": " MCP Servers Indexed"
   },
   "faq": {
     "title": "FAQ",
@@ -70,12 +55,8 @@
         "description": "Yes, security is built into the MCP protocol. Servers control their own resources, there's no need to share API keys with LLM providers, and the system maintains clear boundaries. Each server manages its own authentication and access control."
       },
       {
-        "title": "What is mcp.so?",
-        "description": "mcp.so is a community-driven platform that collects and organizes third-party MCP Servers. It serves as a central directory where users can discover, share, and learn about various MCP Servers available for AI applications."
-      },
-      {
-        "title": "How can I submit my MCP Server to mcp.so?",
-        "description": "You can submit your MCP Server by creating a new issue in our GitHub repository. Click the 'Submit' button in the navigation bar or visit our GitHub issues page directly. Please provide details about your server including its name, description, features, and connection information."
+        "title": "What is https://toolpert.com/mcp-servers?",
+        "description": "https://toolpert.com/mcp-servers is a community-driven platform that collects and organizes third-party MCP Servers. It serves as a central directory where users can discover, share, and learn about various MCP Servers available for AI applications."
       }
     ]
   },
@@ -83,12 +64,12 @@
     "brand": {
       "title": "MCP Servers",
       "description": "The largest collection of MCP Servers, featuring Awesome MCP Servers and Claude MCP integration.",
-      "domain": "https://mcp.so"
+      "domain": "https://toolpert.com/mcp-servers"
     },
     "copyright": {
-      "owner": "mcp.so",
+      "owner": "toolpert.com",
       "text": "All rights reserved",
-      "url": "https://mcp.so",
+      "url": "https://toolpert.com",
       "target": "_blank"
     },
     "nav": {
@@ -127,54 +108,14 @@
               "target": "_blank"
             }
           ]
-        },
-        {
-          "title": "Community",
-          "children": [
-            {
-              "title": "Telegram",
-              "url": "https://t.me/+N0gv4O9SXio2YWU1",
-              "target": "_blank"
-            },
-            {
-              "title": "Discord",
-              "url": "https://discord.gg/RsYPRrnyqg",
-              "target": "_blank"
-            },
-            {
-              "title": "GitHub",
-              "url": "https://github.com/mcpservers/awesome-mcp-servers/issues/1",
-              "target": "_blank"
-            }
-          ]
-        },
-        {
-          "title": "Friends",
-          "children": [
-            {
-              "title": "ThinkAny",
-              "url": "https://thinkany.ai",
-              "target": "_blank"
-            },
-            {
-              "title": "HeyBeauty",
-              "url": "https://heybeauty.ai",
-              "target": "_blank"
-            },
-            {
-              "title": "PodLM",
-              "url": "https://podlm.ai",
-              "target": "_blank"
-            }
-          ]
         }
       ]
     },
     "social": {
       "items": {
         "email": {
-          "title": "support@mcp.so",
-          "url": "mailto:support@mcp.so"
+          "title": "mcp@toolpert.com",
+          "url": "mailto:mcp@toolpert.com"
         }
       }
     }

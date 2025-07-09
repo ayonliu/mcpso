@@ -11,7 +11,7 @@ export default ({ project }: { project: Project }) => {
       href={
         project.target === "_blank"
           ? project.url || ""
-          : `/server/${project.name}`
+          : `/mcp-server/${project.name}`
       }
       target={project.target || "_self"}
     >
