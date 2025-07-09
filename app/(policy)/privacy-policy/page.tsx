@@ -16,7 +16,7 @@ export default function () {
 
 ## Introduction
 
-Welcome to mcp.so, a third-party Model Context Protocol (MCP) servers store. We value your privacy and are committed to protecting your personal information. This privacy policy explains how we collect, use, and safeguard your information when you use our MCP server hosting and distribution services.
+Welcome to toolpert.com/mcp-servers, a third-party Model Context Protocol (MCP) servers store. We value your privacy and are committed to protecting your personal information. This privacy policy explains how we collect, use, and safeguard your information when you use our MCP server hosting and distribution services.
 
 ## Information Collection and Use
 
@@ -57,13 +57,13 @@ You have the right to:
 
 If you have questions about this privacy policy or our privacy practices, please contact us at:
 
-**Email**: [support@mcp.so](mailto:support@mcp.so)
+**Email**: [mcp@toolpert.com](mailto:mcp@toolpert.com)
 
 ## Updates to This Policy
 
 We may update this privacy policy periodically. Any changes will be posted on this page with an updated effective date. Your continued use of our services after such modifications constitutes your acknowledgment of the modified policy.
 
-Last updated: December 6, 2024`;
+Last updated: July 9, 2025`;
   return (
     <div>
       <a className="text-base-content cursor-pointer" href="/">

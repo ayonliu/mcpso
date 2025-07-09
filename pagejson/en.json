@@ -88,26 +88,6 @@
               "target": "_blank"
             }
           ]
-        },
-        {
-          "title": "Resources",
-          "children": [
-            {
-              "title": "Model Context Protocol",
-              "url": "https://www.anthropic.com/news/model-context-protocol",
-              "target": "_blank"
-            },
-            {
-              "title": "MCP Starter Guide",
-              "url": "https://modelcontextprotocol.io/introduction",
-              "target": "_blank"
-            },
-            {
-              "title": "Claude MCP Servers",
-              "url": "https://github.com/modelcontextprotocol/servers",
-              "target": "_blank"
-            }
-          ]
         }
       ]
     },
