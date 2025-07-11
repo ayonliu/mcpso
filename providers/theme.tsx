@@ -7,7 +7,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
 
       <script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=G-9ZWF7FKDR8"
+        src="https://www.googletagmanager.com/gtag/js?id=G-KENN5PCFFW"
       ></script>
       <script
         dangerouslySetInnerHTML={{
@@ -16,7 +16,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
             
-              gtag('config', 'G-9ZWF7FKDR8');
+              gtag('config', 'G-KENN5PCFFW');
             `,
         }}
       ></script>
