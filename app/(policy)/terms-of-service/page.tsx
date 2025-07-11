@@ -16,11 +16,11 @@ export default function () {
 
 ## Introduction and Acceptance of Terms
 
-Welcome to **MCP Servers** (https://toolpert.com/mcp-server), a platform dedicated to providing a marketplace for Model Context Protocol (MCP) servers. Our service enables developers and organizations to discover, share, and manage MCP servers that connect AI assistants with various data sources. By accessing or using our service, you agree to be bound by these Terms of Service.
+Welcome to **MCP Servers** (https://toolpert.com/mcp), a platform dedicated to providing a marketplace for Model Context Protocol (MCP) servers. Our service enables developers and organizations to discover, share, and manage MCP servers that connect AI assistants with various data sources. By accessing or using our service, you agree to be bound by these Terms of Service.
 
 ## Use of the Service
 
-toolpert.com/mcp-server provides a platform where users can:
+toolpert.com/mcp provides a platform where users can:
 - Browse and discover MCP server implementations
 - Share and publish their own MCP servers
 - Access documentation and implementation guides
@@ -38,9 +38,9 @@ You agree to use the service in accordance with all applicable laws and regulati
 
 ## Content and Intellectual Property Rights
 
-1. **Platform Rights**: The toolpert.com/mcp-server platform, including its interface, features, and functionality, is protected under copyright law. toolpert.com/mcp-server retains all rights to the platform infrastructure.
+1. **Platform Rights**: The toolpert.com/mcp platform, including its interface, features, and functionality, is protected under copyright law. toolpert.com/mcp retains all rights to the platform infrastructure.
 
-2. **User Content**: You retain your rights to any MCP servers you publish. By publishing, you grant toolpert.com/mcp-server a license to host and distribute your content through our platform.
+2. **User Content**: You retain your rights to any MCP servers you publish. By publishing, you grant toolpert.com/mcp a license to host and distribute your content through our platform.
 
 3. **Open Source**: We encourage open-source contributions while respecting individual licensing choices.
 
@@ -92,11 +92,11 @@ We reserve the right to suspend or terminate accounts that:
 
 ## Disclaimer of Warranties
 
-THE SERVICE IS PROVIDED "AS IS" WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES. toolpert.com/mcp-server DISCLAIMS ALL WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+THE SERVICE IS PROVIDED "AS IS" WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES. toolpert.com/mcp DISCLAIMS ALL WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
 
 ## Limitation of Liability
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, toolpert.com/mcp-server SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES ARISING FROM YOUR USE OF THE SERVICE OR ANY MCP SERVERS PUBLISHED THROUGH THE SERVICE.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, toolpert.com/mcp SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES ARISING FROM YOUR USE OF THE SERVICE OR ANY MCP SERVERS PUBLISHED THROUGH THE SERVICE.
 
 ## Changes to Terms
 
@@ -104,7 +104,7 @@ We may update these terms at any time. Continued use of the service after change
 
 ## Governing Law
 
-These terms shall be governed by and construed in accordance with the laws of the jurisdiction where toolpert.com/mcp-server operates, without regard to conflict of law principles.
+These terms shall be governed by and construed in accordance with the laws of the jurisdiction where toolpert.com/mcp operates, without regard to conflict of law principles.
 
 ## Contact Information
 
@@ -112,7 +112,7 @@ For questions about these terms, please contact us at [mcp@toolpert.com](mailto:
 
 ---
 
-By using toolpert.com/mcp-server, you acknowledge that you have read and agree to these Terms of Service.
+By using toolpert.com/mcp, you acknowledge that you have read and agree to these Terms of Service.
 `;
 
   return (

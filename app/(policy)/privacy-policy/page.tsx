@@ -16,7 +16,7 @@ export default function () {
 
 ## Introduction
 
-Welcome to toolpert.com/mcp-server, a third-party Model Context Protocol (MCP) servers store. We value your privacy and are committed to protecting your personal information. This privacy policy explains how we collect, use, and safeguard your information when you use our MCP server hosting and distribution services.
+Welcome to toolpert.com/mcp, a third-party Model Context Protocol (MCP) servers store. We value your privacy and are committed to protecting your personal information. This privacy policy explains how we collect, use, and safeguard your information when you use our MCP server hosting and distribution services.
 
 ## Information Collection and Use
 
