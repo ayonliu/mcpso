@@ -20,7 +20,9 @@ export default ({ project }: { project: Project }) => {
           {project.avatar_url && (
             <LazyLoadImage
               src={project.avatar_url}
-              placeholderSrc={`/logo.png`}
+              placeholderSrc={
+                process.env.NEXT_PUBLIC_ASSET_PREFIX + "/logo.png"
+              }
               alt={project.title}
               className="mr-4 inline-block h-16 w-16 object-cover rounded-full"
             />
