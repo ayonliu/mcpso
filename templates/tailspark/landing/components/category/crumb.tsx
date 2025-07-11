@@ -4,12 +4,16 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import { Project } from "@/types/project";
 
 export default ({ category }: { category: Category }) => {
+  const navPrefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
   return (
     <nav className="flex" aria-label="Breadcrumb">
       <ol role="list" className="flex items-center space-x-2">
         <li>
           <div>
-            <a className="text-gray-400 hover:text-gray-500" href="/">
+            <a
+              className="text-gray-400 hover:text-gray-500"
+              href={navPrefix + "/"}
+            >
               <FiHome />
               <span className="sr-only">Home</span>
             </a>
@@ -22,7 +26,7 @@ export default ({ category }: { category: Category }) => {
             <a
               className="ml-2 text-md font-medium text-gray-500 hover:text-primary"
               aria-current="page"
-              href={"/categories"}
+              href={navPrefix + "/categories"}
             >
               Categories
             </a>

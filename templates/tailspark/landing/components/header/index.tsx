@@ -8,6 +8,15 @@ import { usePathname } from "next/navigation";
 
 export default ({ header }: { header: Header }) => {
   const pathname = usePathname();
+  let brandUrl = header?.brand?.url;
+  if (process.env.NEXT_PUBLIC_BASE_PATH) {
+    brandUrl = process.env.NEXT_PUBLIC_BASE_PATH + header?.brand?.url;
+  }
+  let brandAvatar = header?.brand?.avatar?.src;
+  if (process.env.NEXT_PUBLIC_BASE_PATH) {
+    brandAvatar = process.env.NEXT_PUBLIC_BASE_PATH + header?.brand?.avatar?.src;
+  }
+  const navPrefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
   return (
     <header className="mx-auto w-full max-w-7xl px-4 md:px-8 mt-4 md:mt-4">
@@ -15,10 +24,10 @@ export default ({ header }: { header: Header }) => {
         <p className="text-lg md:text-3xl font-medium ">
           <a
             className="flex items-center bg-cover bg-center py-3 px-2 md:py-4 m text-primary cursor-pointer font-bold"
-            href={header?.brand?.url}
+            href={brandUrl}
           >
             <img
-              src={header?.brand?.avatar?.src}
+              src={brandAvatar}
               alt={header?.brand?.avatar?.title || header?.brand?.title}
               className="w-10 h-10 rounded-full border-2 border-slate-300 shadow-lg mr-2"
             />
@@ -32,10 +41,10 @@ export default ({ header }: { header: Header }) => {
               return (
                 <li className="mx-4 hidden md:block" key={idx}>
                   <a
-                    href={item.url}
+                    href={navPrefix + item.url}
                     target={item.target}
                     className={
-                      pathname === item.url
+                      pathname === navPrefix + item.url
                         ? "text-[#2752f4]"
                         : "hover:text-[#2752f4]"
                     }
