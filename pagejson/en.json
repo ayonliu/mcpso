@@ -55,8 +55,8 @@
         "description": "Yes, security is built into the MCP protocol. Servers control their own resources, there's no need to share API keys with LLM providers, and the system maintains clear boundaries. Each server manages its own authentication and access control."
       },
       {
-        "title": "What is https://toolpert.com/mcp-servers?",
-        "description": "https://toolpert.com/mcp-servers is a community-driven platform that collects and organizes third-party MCP Servers. It serves as a central directory where users can discover, share, and learn about various MCP Servers available for AI applications."
+        "title": "What is https://toolpert.com/mcp-server?",
+        "description": "https://toolpert.com/mcp-server is a community-driven platform that collects and organizes third-party MCP Servers. It serves as a central directory where users can discover, share, and learn about various MCP Servers available for AI applications."
       }
     ]
   },
@@ -64,7 +64,7 @@
     "brand": {
       "title": "MCP Servers",
       "description": "The largest collection of MCP Servers, featuring Awesome MCP Servers and Claude MCP integration.",
-      "domain": "https://toolpert.com/mcp-servers"
+      "domain": "https://toolpert.com/mcp-server"
     },
     "copyright": {
       "owner": "toolpert.com",
